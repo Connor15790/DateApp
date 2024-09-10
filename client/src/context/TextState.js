@@ -3,7 +3,8 @@ import axios from 'axios';
 import textContext from './textContext';
 
 const TextState = (props) => {
-    const host = "http://localhost:5000";
+    // const host = "http://localhost:5000";
+    const host = "https://dateapp-c6dx.onrender.com";
     const textInitial = [""];
 
     const [text, setText] = useState(textInitial);
