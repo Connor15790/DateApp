@@ -1,0 +1,99 @@
+.settingsbtn {
+    /* width: 2.6%; */
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.settingsbtn:hover {
+    background-color: #dfdbdd;
+}
+
+.maincontainer {
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 130px;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    box-shadow: inset 0 600px 0 0 rgba(0, 0, 0, 0.4);
+    transition: ease-out 0.3s;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+.maincontainer2 {
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 130px;
+    background-image: url(https://media.giphy.com/media/kbMeVf8YbmDB1fKqj6/giphy.gif?cid=ecf05e476e83mpjc96oinwf4t19nv8kx948ylvb9phlqb7sy&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size: 100% auto; /* Ensures the image covers the entire container */
+    box-shadow: inset 0 0 0 #f2306b; /* Removed large inset shadow */
+    transition: ease-out 0.7s;
+    border-radius: 10px;
+    padding: 70px;
+    opacity: 1; /* Remove opacity for now */
+    position: relative;
+}
+
+.btncontainer {
+    display: flex;
+    width: 80px;
+}
+
+.yesbtn {
+    background-color: #f2306b;
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGlmOXV6NXk0ZDZ2NjZzejluNjhidGNodmxjaXIyYjlmZ2loazBxZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7TKoWXm3okO1kgHC/giphy.gif);
+    background-size: 100% auto;
+    /* margin: 0 70px; */
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+}
+
+.yesbtn:hover {
+    background-color: aliceblue;
+    color: red;
+}
+
+.yesbtn span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nobtn {
+    background-color: #080236;
+    background-image: url(https://i.gifer.com/2ii5.gif);
+    background-size: 100% auto;
+    /* margin-right: 70px; */
+    padding: 5px 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    position: fixed;
+}   
+
+.nobtn span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question {
+    opacity: 1;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.buttons {
+    /* background-color: black; */
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20vh;
+}
